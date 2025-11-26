@@ -134,6 +134,12 @@ body {
     padding: 1rem 0;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0rem 0;
+    }
+}
+
 .nav-container {
     max-width: 1200px;
     margin: 0 auto;
