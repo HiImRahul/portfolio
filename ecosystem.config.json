@@ -1,0 +1,25 @@
+{
+  "apps": [
+    {
+      "name": "rahul-portfolio",
+      "script": "python3",
+      "args": "-m http.server 8080",
+      "cwd": "/home/mj/mj-portfolio/rahul.me",
+      "instances": 1,
+      "exec_mode": "fork",
+      "watch": false,
+      "max_memory_restart": "200M",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "log_file": "/home/mj/mj-portfolio/rahul.me/logs/combined.log",
+      "out_file": "/home/mj/mj-portfolio/rahul.me/logs/out.log",
+      "error_file": "/home/mj/mj-portfolio/rahul.me/logs/error.log",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss Z",
+      "merge_logs": true,
+      "autorestart": true,
+      "max_restarts": 10,
+      "min_uptime": "10s"
+    }
+  ]
+}

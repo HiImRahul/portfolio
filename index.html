@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul A - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>RA</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#internships" class="nav-link">Internships</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Video Background -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <video autoplay muted loop playsinline class="hero-video">
+                    <source src="assets/videos/devops-background.mp4" type="video/mp4">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-particles" id="particles"></div>
+            
+            <!-- Floating Elements for Depth -->
+            <div class="floating-elements">
+                <div class="floating-element element-1" data-aos="fade-right" data-aos-duration="2000">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="floating-element element-2" data-aos="fade-left" data-aos-duration="2000">
+                    <i class="fab fa-react"></i>
+                </div>
+                <div class="floating-element element-3" data-aos="fade-up" data-aos-duration="2000">
+                    <i class="fab fa-python"></i>
+                </div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-up" data-aos-duration="1000">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hello, I'm</span>
+                        <span class="name">Rahul A</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineer | Java & Python Developer</h2>
+                    <p class="hero-description">
+                        Building intelligent automation with Agentic AI & scalable backend systems. 
+                        Software Engineer with expertise in Java Spring Boot, Python Django, and AI development.
+                    </p>
+                    
+                    <div class="hero-buttons" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="assets/resume/Rahul_A_Resume.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <a href="https://github.com/rahulanil" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rahul-a/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:rahulanil600@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="assets/images/profile.jpg" alt="Rahul A">
+                        </div>
+                        <div class="profile-info">
+                            <div class="status-indicator">
+                                <span class="status-dot"></span>
+                                <span>Available for Work</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+                <span>Scroll Down</span>
+            </div>
+        </section>
+
+        <!-- About Section with Layers -->
+        <section id="about" class="about">
+            <div class="about-background">
+                <div class="about-layer layer-1"></div>
+                <div class="about-layer layer-2"></div>
+                <div class="about-layer layer-3"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                        <p class="about-intro">
+                            <strong>Software Engineer & Python AI Developer</strong> with over 1 year of hands-on experience 
+                            in Java Spring Boot & Python Django. Currently working at 
+                            <a href="https://www.zoondia.com" target="_blank" rel="noopener noreferrer">
+                                <strong>Zoondia, Technopark</strong>
+                            </a>,
+                            focusing on Agentic AI development and AI-based automation systems.
+                        </p>
+                        
+                        <p>
+                            Holds a <strong>Bachelor of Computer Science from SRM University</strong> 
+                            with specialization in Big Data Analytics (8.5 CGPA). 
+                            Previously worked at Ramachandran Retail Pvt Ltd where I engineered SAP-integrated systems, 
+                            a self-billing KIOSK, and intelligent tracking dashboards.
+                            Motivated by building smart systems that solve real-world problems through innovation and efficiency.
+                        </p>
+                        <div class="education-details">
+                            <h4>Education</h4>
+                            <ul>
+                                <li><strong>Bachelor of Computer Science</strong>, SRM University (2018-2022) - 8.5 CGPA</li>
+                                <li><strong>+2 Computer Science</strong>, Love Dale Residential School (2017-2018) - 6.8 CGPA</li>
+                                <li><strong>10th Grade</strong>, Love Dale Residential School (2015-2016) - 9.2 CGPA</li>
+                            </ul>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">1+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Technologies</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">4+</span>
+                                <span class="stat-label">AI Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-visual" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="tech-stack-3d">
+                            <div class="tech-sphere">
+                                <div class="tech-item" data-tech="Java">
+                                    <i class="fab fa-java"></i>
+                                </div>
+                                <div class="tech-item" data-tech="React">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="tech-item" data-tech="Python">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="tech-item" data-tech="Node.js">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <div class="tech-item" data-tech="Database">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section with Left Content and Right Images -->
+        <section id="experience" class="experience">
+            <div class="experience-background">
+                <div class="experience-layer layer-1"></div>
+                <div class="experience-layer layer-2"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Professional Journey</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="experience-timeline">
+                    <!-- Zoondia Experience -->
+                    <div class="experience-item" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="experience-content">
+                            <div class="experience-left">
+                                <div class="experience-card">
+                                    <div class="experience-header">
+                                        <div class="experience-info">
+                                            <h3>Python AI Developer</h3>
+                                            <div class="company">
+                                                <i class="fas fa-building"></i>
+                                                <a href="https://www.zoondia.com" target="_blank" rel="noopener noreferrer">
+                                                    <span>Zoondia</span>
+                                                </a>
+                                            </div>                                            
+                                        </div>
+                                        <div class="experience-duration">
+                                            <span class="duration-badge current">Current</span>
+                                        </div>
+                                    </div>
+                                    <ul class="experience-responsibilities">
+                                        <li>Developing Agentic AI systems and automation solutions</li>
+                                        <li>Building intelligent backend systems with AI integration</li>
+                                        <li>Implementing scalable AI-powered applications</li>
+                                        <li>Working with LLM context integration for intelligent responses</li>
+                                        <li>Developing Python Django and Java Spring Boot applications</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="experience-right" data-aos="fade-left" data-aos-duration="1200">
+                                <div class="experience-image">
+                                    <img src="assets/images/modern-tech-office.jpg" alt="AI Development">
+                                    <div class="image-overlay">
+                                        <div class="overlay-content">
+                                            <i class="fas fa-brain"></i>
+                                            <span>AI Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Ramachandran Retail Experience -->
+                    <div class="experience-item" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="experience-content">
+                            <div class="experience-left">
+                                <div class="experience-card">
+                                    <div class="experience-header">
+                                        <div class="experience-info">
+                                            <h3>Software Developer</h3>
+                                            <div class="company">
+                                                <i class="fas fa-building"></i>
+                                                <a href="https://www.ramachandran.in/" target="_blank" rel="noopener noreferrer">
+                                                    <span>Ramachandran Retail PVT LTD</span>
+                                                </a>
+                                            </div>     
+                                        </div>
+                                        <div class="experience-duration">
+                                            <span class="duration-badge">Jun 2023 - Jun 2024</span>
+                                        </div>
+                                    </div>
+                                    <ul class="experience-responsibilities">
+                                        <li>Engineered SAP-integrated systems for retail operations</li>
+                                        <li>Developed self-billing KIOSK with payment integration</li>
+                                        <li>Created intelligent tracking dashboards for business analytics</li>
+                                        <li>Worked on full-stack development using Java, JSP, and jQuery</li>
+                                        <li>Implemented database solutions using MySQL and SQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="experience-right" data-aos="fade-right" data-aos-duration="1200">
+                                <div class="experience-image">
+                                    <img src="assets/images/professional-devops-engineer.jpg" alt="Software Development">
+                                    <div class="image-overlay">
+                                        <div class="overlay-content">
+                                            <i class="fas fa-code"></i>
+                                            <span>Software Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Additional Visual Elements -->
+                <div class="experience-visuals">
+                    <div class="visual-element visual-1" data-aos="zoom-in" data-aos-duration="1500">
+                        <img src="assets/images/devops-cloud-infrastructure.jpg" alt="DevOps Infrastructure">
+                    </div>
+                    <div class="visual-element visual-2" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+                        <img src="assets/images/professional-devops-engineer.jpg" alt="Professional DevOps Engineer">
+                    </div>
+                    <div class="visual-element visual-3" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+                        <img src="assets/images/modern-tech-office.jpg" alt="Modern Tech Office">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Section -->
+        <section id="internships" class="experience">
+            <div class="experience-background">
+                <div class="experience-layer layer-1"></div>
+                <div class="experience-layer layer-2"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Internships</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="experience-timeline">
+                    <!-- KOMPETENZEN TECHNOLOGIES -->
+                    <div class="experience-item" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="experience-content">
+                            <div class="experience-left">
+                                <div class="experience-card">
+                                    <div class="experience-header">
+                                        <div class="experience-info">
+                                            <h3>Full Stack Development Trainee</h3>
+                                            <div class="company">
+                                                <i class="fas fa-building"></i>
+                                                <a href="https://kompetenzen.in/" target="_blank" rel="noopener noreferrer">
+                                                    <span>KOMPETENZEN TECHNOLOGIES</span>
+                                                </a>
+                                            </div>   
+                                        </div>
+                                        <div class="experience-duration">
+                                            <span class="duration-badge">Sep 2022 - Jun 2023</span>
+                                        </div>
+                                    </div>
+                                    <ul class="experience-responsibilities">
+                                        <li>Completed a comprehensive full stack development course</li>
+                                        <li>Worked with Java servlet methods and MVC architecture</li>
+                                        <li>Gained hands-on experience in web application development</li>
+                                        <li>Developed practical projects using modern web technologies</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="experience-right" data-aos="fade-left" data-aos-duration="1200">
+                                <div class="experience-image">
+                                    <img src="assets/images/terraform-project.jpg" alt="Full Stack Development">
+                                    <div class="image-overlay">
+                                        <div class="overlay-content">
+                                            <i class="fas fa-laptop-code"></i>
+                                            <span>Full Stack Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- MOZANTA TECHNOLOGIES -->
+                    <div class="experience-item" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="experience-content">
+                            <div class="experience-left">
+                                <div class="experience-card">
+                                    <div class="experience-header">
+                                        <div class="experience-info">
+                                            <h3>Java Full Stack Developer Intern</h3>
+                                            <div class="company">
+                                                <i class="fas fa-building"></i>
+                                                <a href="https://www.mozanta.com/" target="_blank" rel="noopener noreferrer">
+                                                    <span>MOZANTA TECHNOLOGIES</span>
+                                                </a>
+                                            </div>   
+                                        </div>
+                                        <div class="experience-duration">
+                                            <span class="duration-badge">Jul 2022 - Aug 2022</span>
+                                        </div>
+                                    </div>
+                                    <ul class="experience-responsibilities">
+                                        <li>Assisted development team with Java full stack development</li>
+                                        <li>Worked on real-world projects as a complete intern</li>
+                                        <li>Gained exposure to enterprise-level application development</li>
+                                        <li>Collaborated with senior developers on various modules</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="experience-right" data-aos="fade-right" data-aos-duration="1200">
+                                <div class="experience-image">
+                                    <img src="assets/images/sudoskills-internship.jpg" alt="Java Development Internship">
+                                    <div class="image-overlay">
+                                        <div class="overlay-content">
+                                            <i class="fas fa-code"></i>
+                                            <span>Java Development</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section with Enhanced Layers -->
+        <section id="skills" class="skills">
+            <div class="skills-background">
+                <div class="skills-layer layer-1"></div>
+                <div class="skills-layer layer-2"></div>
+                <div class="skills-layer layer-3"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-category" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming Languages</h3>
+                        <ul>
+                            <li>Java (Spring Boot)</li>
+                            <li>Python (Django)</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Web Technologies</h3>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>Django</li>
+                            <li>REST API</li>
+                            <li>WebSocket</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Databases</h3>
+                        <ul>
+                            <li>MySQL</li>
+                            <li>MongoDB</li>
+                            <li>Qdrant</li>
+                            <li>ChromaDB</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI & Machine Learning</h3>
+                        <ul>
+                            <li>Agentic AI Systems</li>
+                            <li>Ollama</li>
+                            <li>Machine Learning</li>
+                            <li>LLM Integration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="skill-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Communication</li>
+                            <li>Teamwork</li>
+                            <li>Adaptability</li>
+                            <li>Leadership</li>
+                            <li>Creativity</li>
+                            <li>Critical Thinking</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+                        <div class="skill-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li>Spring Boot</li>
+                            <li>Django</li>
+                            <li>LangChain</li>
+                            <li>FastAPI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section with Enhanced Layers -->
+        <section id="projects" class="projects">
+            <div class="projects-background">
+                <div class="projects-layer layer-1"></div>
+                <div class="projects-layer layer-2"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="project-image">
+                            <img src="assets/images/modern-tech-office.jpg" alt="Accident Location Prediction">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Chatbot (Backend)</h3>
+                            <p>Chat using content scraped from websites, PDFs, DOCs, or YouTube transcripts using LLM context integration. Intelligent chatbot system with real-time content processing and response capabilities.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>LLM</span>
+                                <span>NLP</span>
+                                <span>FastAPI</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="assets/images/professional-devops-engineer.jpg" alt="Hyperspectral Image Classification">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Resume Analyzer (Backend)</h3>
+                            <p>Scores resumes against job descriptions using AI & automation to simplify HR evaluation. Automated resume parsing and analysis with intelligent matching algorithms.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>AI</span>
+                                <span>NLP</span>
+                                <span>spaCy</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="assets/images/devops-cloud-infrastructure.jpg" alt="Spring Boot E-commerce">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Shopping Website Backend</h3>
+                            <p>Ecommerce backend using Spring Boot, Redis caching, PostgreSQL, Kafka, high-performance architecture. Scalable backend system designed for large-scale online shopping operations.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>Redis</span>
+                                <span>Kafka</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <div class="project-image">
+                            <img src="assets/images/zoondia-workspace.jpg" alt="Self-Billing KIOSK System">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Self-Billing KIOSK System</h3>
+                            <p>Automated food court KIOSK with online payment integration built using Java. Self-service billing system with intuitive user interface and secure payment processing.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Payment Gateway</span>
+                                <span>KIOSK</span>
+                                <span>JavaFX</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <div class="project-image">
+                            <img src="assets/images/cicd-project.jpg" alt="Agentic AI Development">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Agentic AI Development</h3>
+                            <p>Building intelligent AI agents for autonomous task execution and decision making. Advanced AI systems that can independently perform complex tasks and make intelligent decisions.</p>
+                            <div class="project-tech">
+                                <span>Agentic AI</span>
+                                <span>Python</span>
+                                <span>Ollama</span>
+                                <span>LangChain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section with Enhanced Layers -->
+        <section id="contact" class="contact">
+            <div class="contact-background">
+                <div class="contact-layer layer-1"></div>
+                <div class="contact-layer layer-2"></div>
+            </div>
+            
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <div class="section-divider"></div>
+                </div>
+                
+                <div class="contact-content">
+                    <p class="contact-intro" data-aos="fade-up" data-aos-duration="1000">
+                        I'm always interested in discussing new opportunities in Agentic AI development, 
+                        challenging backend projects, or sharing knowledge about Java Spring Boot, 
+                        Python Django, and AI-powered automation systems.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Email</h3>
+                                <a href="mailto:rahulanil600@gmail.com">rahulanil600@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-info">
+                                <h3>LinkedIn</h3>
+                                <a href="https://www.linkedin.com/in/rahul-a/" target="_blank">linkedin.com/in/rahul-a</a>
+                            </div>
+                        </div>
+                        
+                        <a href="https://github.com/HiImRahul" target="_blank" class="contact-wrapper">
+                            <div class="contact-method" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                <div class="contact-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h3>GitHub</h3>
+                                    <p>github.com/rahulanil</p>
+                                </div>
+                            </div>
+                        </a>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rahul A. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
